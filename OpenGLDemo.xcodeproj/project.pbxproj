@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC24E6421E7FDF41001F9D29 /* MITMITPICViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC24E6411E7FDF41001F9D29 /* MITMITPICViewController.m */; };
+		FC24E6451E7FE2ED001F9D29 /* MITTextureLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = FC24E6441E7FE2ED001F9D29 /* MITTextureLoader.m */; };
+		FC24E64B1E80BB7F001F9D29 /* MITBlendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC24E64A1E80BB7F001F9D29 /* MITBlendViewController.m */; };
+		FC24E64D1E80C4E5001F9D29 /* beetle.png in Resources */ = {isa = PBXBuildFile; fileRef = FC24E64C1E80C4E5001F9D29 /* beetle.png */; };
+		FC24E6501E80D454001F9D29 /* MITMultiTextureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC24E64F1E80D454001F9D29 /* MITMultiTextureViewController.m */; };
+		FC2F89721E76901B002DE57C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2F89711E76901B002DE57C /* main.m */; };
+		FC2F89751E76901B002DE57C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2F89741E76901B002DE57C /* AppDelegate.m */; };
+		FC2F89781E76901B002DE57C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2F89771E76901B002DE57C /* ViewController.m */; };
+		FC2F897B1E76901B002DE57C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2F89791E76901B002DE57C /* Main.storyboard */; };
+		FC2F897D1E76901B002DE57C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2F897C1E76901B002DE57C /* Assets.xcassets */; };
+		FC2F89801E76901B002DE57C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2F897E1E76901B002DE57C /* LaunchScreen.storyboard */; };
+		FC2F89881E76937C002DE57C /* 111.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2F89871E76937C002DE57C /* 111.png */; };
+		FC46FD761E7A7679009781E4 /* MITGLContext.m in Sources */ = {isa = PBXBuildFile; fileRef = FC46FD6C1E7A7679009781E4 /* MITGLContext.m */; };
+		FC46FD771E7A7679009781E4 /* MITGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC46FD6E1E7A7679009781E4 /* MITGLKVertexAttribArrayBuffer.m */; };
+		FC46FD781E7A7679009781E4 /* MITGLKView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC46FD701E7A7679009781E4 /* MITGLKView.m */; };
+		FC46FD791E7A7679009781E4 /* MITGLKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC46FD721E7A7679009781E4 /* MITGLKViewController.m */; };
+		FC46FD7A1E7A7679009781E4 /* GLVertexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC46FD751E7A7679009781E4 /* GLVertexViewController.m */; };
+		FC46FD7E1E7A77AC009781E4 /* MITTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = FC46FD7D1E7A77AC009781E4 /* MITTexture.m */; };
+		FC46FDCB1E7BD0FD009781E4 /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = FC46FDCA1E7BD0FD009781E4 /* grid.png */; };
+		FC6416B61E7FBB52004C0527 /* MITGLKAnimateController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6416B51E7FBB52004C0527 /* MITGLKAnimateController.m */; };
+		FC6416BB1E7FC374004C0527 /* leaves.gif in Resources */ = {isa = PBXBuildFile; fileRef = FC6416BA1E7FC374004C0527 /* leaves.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC24E6401E7FDF41001F9D29 /* MITMITPICViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MITMITPICViewController.h; sourceTree = "<group>"; };
+		FC24E6411E7FDF41001F9D29 /* MITMITPICViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MITMITPICViewController.m; sourceTree = "<group>"; };
+		FC24E6431E7FE2ED001F9D29 /* MITTextureLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MITTextureLoader.h; sourceTree = "<group>"; };
+		FC24E6441E7FE2ED001F9D29 /* MITTextureLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MITTextureLoader.m; sourceTree = "<group>"; };
+		FC24E6491E80BB7F001F9D29 /* MITBlendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MITBlendViewController.h; sourceTree = "<group>"; };
+		FC24E64A1E80BB7F001F9D29 /* MITBlendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MITBlendViewController.m; sourceTree = "<group>"; };
+		FC24E64C1E80C4E5001F9D29 /* beetle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beetle.png; sourceTree = "<group>"; };
+		FC24E64E1E80D454001F9D29 /* MITMultiTextureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MITMultiTextureViewController.h; sourceTree = "<group>"; };
+		FC24E64F1E80D454001F9D29 /* MITMultiTextureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MITMultiTextureViewController.m; sourceTree = "<group>"; };
+		FC2F896D1E76901B002DE57C /* OpenGLDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2F89711E76901B002DE57C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC2F89731E76901B002DE57C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC2F89741E76901B002DE57C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC2F89761E76901B002DE57C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC2F89771E76901B002DE57C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC2F897A1E76901B002DE57C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC2F897C1E76901B002DE57C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC2F897F1E76901B002DE57C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC2F89811E76901B002DE57C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2F89871E76937C002DE57C /* 111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 111.png; sourceTree = "<group>"; };
+		FC46FD6B1E7A7679009781E4 /* MITGLContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MITGLContext.h; path = "封装三角形/MITGLContext.h"; sourceTree = "<group>"; };
+		FC46FD6C1E7A7679009781E4 /* MITGLContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MITGLContext.m; path = "封装三角形/MITGLContext.m"; sourceTree = "<group>"; };
+		FC46FD6D1E7A7679009781E4 /* MITGLKVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MITGLKVertexAttribArrayBuffer.h; path = "封装三角形/MITGLKVertexAttribArrayBuffer.h"; sourceTree = "<group>"; };
+		FC46FD6E1E7A7679009781E4 /* MITGLKVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MITGLKVertexAttribArrayBuffer.m; path = "封装三角形/MITGLKVertexAttribArrayBuffer.m"; sourceTree = "<group>"; };
+		FC46FD6F1E7A7679009781E4 /* MITGLKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MITGLKView.h; sourceTree = "<group>"; };
+		FC46FD701E7A7679009781E4 /* MITGLKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MITGLKView.m; sourceTree = "<group>"; };
+		FC46FD711E7A7679009781E4 /* MITGLKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MITGLKViewController.h; sourceTree = "<group>"; };
+		FC46FD721E7A7679009781E4 /* MITGLKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MITGLKViewController.m; sourceTree = "<group>"; };
+		FC46FD741E7A7679009781E4 /* GLVertexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLVertexViewController.h; sourceTree = "<group>"; };
+		FC46FD751E7A7679009781E4 /* GLVertexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLVertexViewController.m; sourceTree = "<group>"; };
+		FC46FD7C1E7A77AC009781E4 /* MITTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MITTexture.h; sourceTree = "<group>"; };
+		FC46FD7D1E7A77AC009781E4 /* MITTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MITTexture.m; sourceTree = "<group>"; };
+		FC46FDCA1E7BD0FD009781E4 /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid.png; sourceTree = "<group>"; };
+		FC6416B41E7FBB52004C0527 /* MITGLKAnimateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MITGLKAnimateController.h; sourceTree = "<group>"; };
+		FC6416B51E7FBB52004C0527 /* MITGLKAnimateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MITGLKAnimateController.m; sourceTree = "<group>"; };
+		FC6416BA1E7FC374004C0527 /* leaves.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = leaves.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC2F896A1E76901B002DE57C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC24E63F1E7FDF41001F9D29 /* 5、贴图 */ = {
+			isa = PBXGroup;
+			children = (
+				FC24E6401E7FDF41001F9D29 /* MITMITPICViewController.h */,
+				FC24E6411E7FDF41001F9D29 /* MITMITPICViewController.m */,
+			);
+			name = "5、贴图";
+			path = "贴图";
+			sourceTree = "<group>";
+		};
+		FC24E6461E80B60F001F9D29 /* 6、textureloader说明 */ = {
+			isa = PBXGroup;
+			children = (
+				FC24E6431E7FE2ED001F9D29 /* MITTextureLoader.h */,
+				FC24E6441E7FE2ED001F9D29 /* MITTextureLoader.m */,
+			);
+			name = "6、textureloader说明";
+			sourceTree = "<group>";
+		};
+		FC24E6471E80B634001F9D29 /* 7、透明度，混合和多重纹理 */ = {
+			isa = PBXGroup;
+			children = (
+				FC46FD6B1E7A7679009781E4 /* MITGLContext.h */,
+				FC46FD6C1E7A7679009781E4 /* MITGLContext.m */,
+			);
+			name = "7、透明度，混合和多重纹理";
+			sourceTree = "<group>";
+		};
+		FC24E6481E80BAF4001F9D29 /* 8、混合片元颜色 */ = {
+			isa = PBXGroup;
+			children = (
+				FC24E6491E80BB7F001F9D29 /* MITBlendViewController.h */,
+				FC24E64A1E80BB7F001F9D29 /* MITBlendViewController.m */,
+			);
+			name = "8、混合片元颜色";
+			sourceTree = "<group>";
+		};
+		FC24E6511E80D45F001F9D29 /* 9、多重纹理 */ = {
+			isa = PBXGroup;
+			children = (
+				FC24E64E1E80D454001F9D29 /* MITMultiTextureViewController.h */,
+				FC24E64F1E80D454001F9D29 /* MITMultiTextureViewController.m */,
+			);
+			name = "9、多重纹理";
+			sourceTree = "<group>";
+		};
+		FC24E6751E8101EC001F9D29 /* 第三章 */ = {
+			isa = PBXGroup;
+			children = (
+				FC46FD731E7A7679009781E4 /* 1、三角形 */,
+				FC46FD6A1E7A7679009781E4 /* 2、封装三角形 */,
+				FC6416B31E7FBB52004C0527 /* 3、动画 */,
+				FC46FD7B1E7A76B4009781E4 /* 4、纹理 */,
+				FC24E63F1E7FDF41001F9D29 /* 5、贴图 */,
+				FC24E6461E80B60F001F9D29 /* 6、textureloader说明 */,
+				FC24E6471E80B634001F9D29 /* 7、透明度，混合和多重纹理 */,
+				FC24E6481E80BAF4001F9D29 /* 8、混合片元颜色 */,
+				FC24E6511E80D45F001F9D29 /* 9、多重纹理 */,
+			);
+			name = "第三章";
+			sourceTree = "<group>";
+		};
+		FC24E6761E810226001F9D29 /* 第四章 */ = {
+			isa = PBXGroup;
+			children = (
+				FC24E6771E8102B7001F9D29 /* 1、环境光、漫反射、镜面反射 */,
+			);
+			name = "第四章";
+			sourceTree = "<group>";
+		};
+		FC24E6771E8102B7001F9D29 /* 1、环境光、漫反射、镜面反射 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "1、环境光、漫反射、镜面反射";
+			sourceTree = "<group>";
+		};
+		FC2F89641E76901B002DE57C = {
+			isa = PBXGroup;
+			children = (
+				FC2F89871E76937C002DE57C /* 111.png */,
+				FC2F896F1E76901B002DE57C /* OpenGLDemo */,
+				FC2F896E1E76901B002DE57C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC2F896E1E76901B002DE57C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC2F896D1E76901B002DE57C /* OpenGLDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC2F896F1E76901B002DE57C /* OpenGLDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FC2F89731E76901B002DE57C /* AppDelegate.h */,
+				FC2F89741E76901B002DE57C /* AppDelegate.m */,
+				FC2F89761E76901B002DE57C /* ViewController.h */,
+				FC2F89771E76901B002DE57C /* ViewController.m */,
+				FC46FD6D1E7A7679009781E4 /* MITGLKVertexAttribArrayBuffer.h */,
+				FC46FD6E1E7A7679009781E4 /* MITGLKVertexAttribArrayBuffer.m */,
+				FC24E6751E8101EC001F9D29 /* 第三章 */,
+				FC24E6761E810226001F9D29 /* 第四章 */,
+				FC2F89791E76901B002DE57C /* Main.storyboard */,
+				FC2F897C1E76901B002DE57C /* Assets.xcassets */,
+				FC2F897E1E76901B002DE57C /* LaunchScreen.storyboard */,
+				FC2F89811E76901B002DE57C /* Info.plist */,
+				FC2F89701E76901B002DE57C /* Supporting Files */,
+			);
+			path = OpenGLDemo;
+			sourceTree = "<group>";
+		};
+		FC2F89701E76901B002DE57C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC24E64C1E80C4E5001F9D29 /* beetle.png */,
+				FC6416BA1E7FC374004C0527 /* leaves.gif */,
+				FC46FDCA1E7BD0FD009781E4 /* grid.png */,
+				FC2F89711E76901B002DE57C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC46FD6A1E7A7679009781E4 /* 2、封装三角形 */ = {
+			isa = PBXGroup;
+			children = (
+				FC46FD6F1E7A7679009781E4 /* MITGLKView.h */,
+				FC46FD701E7A7679009781E4 /* MITGLKView.m */,
+				FC46FD711E7A7679009781E4 /* MITGLKViewController.h */,
+				FC46FD721E7A7679009781E4 /* MITGLKViewController.m */,
+			);
+			name = "2、封装三角形";
+			path = "封装三角形";
+			sourceTree = "<group>";
+		};
+		FC46FD731E7A7679009781E4 /* 1、三角形 */ = {
+			isa = PBXGroup;
+			children = (
+				FC46FD741E7A7679009781E4 /* GLVertexViewController.h */,
+				FC46FD751E7A7679009781E4 /* GLVertexViewController.m */,
+			);
+			name = "1、三角形";
+			path = "三角形";
+			sourceTree = "<group>";
+		};
+		FC46FD7B1E7A76B4009781E4 /* 4、纹理 */ = {
+			isa = PBXGroup;
+			children = (
+				FC46FD7C1E7A77AC009781E4 /* MITTexture.h */,
+				FC46FD7D1E7A77AC009781E4 /* MITTexture.m */,
+			);
+			name = "4、纹理";
+			path = "纹理";
+			sourceTree = "<group>";
+		};
+		FC6416B31E7FBB52004C0527 /* 3、动画 */ = {
+			isa = PBXGroup;
+			children = (
+				FC6416B41E7FBB52004C0527 /* MITGLKAnimateController.h */,
+				FC6416B51E7FBB52004C0527 /* MITGLKAnimateController.m */,
+			);
+			name = "3、动画";
+			path = "动画";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC2F896C1E76901B002DE57C /* OpenGLDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2F89841E76901B002DE57C /* Build configuration list for PBXNativeTarget "OpenGLDemo" */;
+			buildPhases = (
+				FC2F89691E76901B002DE57C /* Sources */,
+				FC2F896A1E76901B002DE57C /* Frameworks */,
+				FC2F896B1E76901B002DE57C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGLDemo;
+			productName = OpenGLDemo;
+			productReference = FC2F896D1E76901B002DE57C /* OpenGLDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC2F89651E76901B002DE57C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = HongtaiCaifu;
+				TargetAttributes = {
+					FC2F896C1E76901B002DE57C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T43EX2XKU3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FC2F89681E76901B002DE57C /* Build configuration list for PBXProject "OpenGLDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC2F89641E76901B002DE57C;
+			productRefGroup = FC2F896E1E76901B002DE57C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC2F896C1E76901B002DE57C /* OpenGLDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC2F896B1E76901B002DE57C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6416BB1E7FC374004C0527 /* leaves.gif in Resources */,
+				FC24E64D1E80C4E5001F9D29 /* beetle.png in Resources */,
+				FC2F89801E76901B002DE57C /* LaunchScreen.storyboard in Resources */,
+				FC46FDCB1E7BD0FD009781E4 /* grid.png in Resources */,
+				FC2F897D1E76901B002DE57C /* Assets.xcassets in Resources */,
+				FC2F897B1E76901B002DE57C /* Main.storyboard in Resources */,
+				FC2F89881E76937C002DE57C /* 111.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC2F89691E76901B002DE57C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC46FD781E7A7679009781E4 /* MITGLKView.m in Sources */,
+				FC2F89781E76901B002DE57C /* ViewController.m in Sources */,
+				FC2F89751E76901B002DE57C /* AppDelegate.m in Sources */,
+				FC24E6451E7FE2ED001F9D29 /* MITTextureLoader.m in Sources */,
+				FC46FD7A1E7A7679009781E4 /* GLVertexViewController.m in Sources */,
+				FC2F89721E76901B002DE57C /* main.m in Sources */,
+				FC24E64B1E80BB7F001F9D29 /* MITBlendViewController.m in Sources */,
+				FC24E6501E80D454001F9D29 /* MITMultiTextureViewController.m in Sources */,
+				FC46FD7E1E7A77AC009781E4 /* MITTexture.m in Sources */,
+				FC46FD791E7A7679009781E4 /* MITGLKViewController.m in Sources */,
+				FC24E6421E7FDF41001F9D29 /* MITMITPICViewController.m in Sources */,
+				FC6416B61E7FBB52004C0527 /* MITGLKAnimateController.m in Sources */,
+				FC46FD761E7A7679009781E4 /* MITGLContext.m in Sources */,
+				FC46FD771E7A7679009781E4 /* MITGLKVertexAttribArrayBuffer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC2F89791E76901B002DE57C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2F897A1E76901B002DE57C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC2F897E1E76901B002DE57C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2F897F1E76901B002DE57C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC2F89821E76901B002DE57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC2F89831E76901B002DE57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC2F89851E76901B002DE57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T43EX2XKU3;
+				INFOPLIST_FILE = OpenGLDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HongtaiCaifu.OpenGLDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC2F89861E76901B002DE57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T43EX2XKU3;
+				INFOPLIST_FILE = OpenGLDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HongtaiCaifu.OpenGLDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC2F89681E76901B002DE57C /* Build configuration list for PBXProject "OpenGLDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2F89821E76901B002DE57C /* Debug */,
+				FC2F89831E76901B002DE57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC2F89841E76901B002DE57C /* Build configuration list for PBXNativeTarget "OpenGLDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2F89851E76901B002DE57C /* Debug */,
+				FC2F89861E76901B002DE57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC2F89651E76901B002DE57C /* Project object */;
+}
